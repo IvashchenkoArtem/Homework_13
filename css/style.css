@@ -1,0 +1,121 @@
+body {
+    background: #e2e7ec;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 0 0 10px 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 22px;
+    padding: 0 22px 0 28px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+.container {
+    padding: 0;
+    display: flex;
+    max-width: 1120px;
+    margin: 100px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #fff;
+    width: 360px;
+}
+
+.box_one {
+    background-color: #fff;
+    width: 740px;
+    background-image: url('../img/img-1.png');
+    padding: 405px 260px 24px 44px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#box {
+    margin-bottom: 20px;
+}
+
+.box_one p {
+    opacity: 0.5;
+    margin-bottom: 18px;
+    color: #ffffff;
+}
+
+.box p {
+    opacity: 0.5;
+    padding: 24px 0 15px 28px;
+}
+
+.foto {
+    padding: 55px 0 25px 28px;
+}
+
+.icon {
+    display: flex;
+    color: black;
+    margin: 80px auto;
+    opacity: 0.5;
+    align-items: center;
+}
+
+i {
+    font-size: 28px;
+    margin-right: 10px;
+}
